@@ -1,0 +1,46 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+export PATH
+USERNAME="masteruser"
+export USERNAME
+PASSWORD=""
+export PASSWORD
+CLUSTERENDPOINT=""
+export CLUSTERENDPOINT
+SSL='True'
+export SSL
+STATE_COLLECTION="bar_stat"
+export STATE_COLLECTION
+STATE_DB="bar_stat"
+export STATE_DB
+WATCHED_DB_NAME="bar"
+export WATCHED_DB_NAME
+TARGET_DB="bar_new"
+export TARGET_DB
+STATE_SYNC_COUNT=1
+export STATE_SYNC_COUNT
+MAX_LOOP=100000
+export MAX_LOOP
+KINESIS_STREAM="test"
+export KINESIS_STREAM
+TARGET_USERNAME="masteruser"
+export TARGET_USERNAME
+TARGET_PASSWORD=""
+export TARGET_PASSWORD
+TARGET_CLUSTERENDPOINT=""
+export TARGET_CLUSTERENDPOINT
+TARGET_SSL='True'
+export TARGET_SSL
+SEQ_COLLECTION="sequence"
+export SEQ_COLLECTION
+SEQ_DB="bar_new"
+export SEQ_DB
